@@ -1,8 +1,15 @@
-header {}
-
-.header__left {
-    margin-left: 100px;
+* {
+    padding: 0;
+    margin: 0;
 }
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__left {}
 
 .header__nav {
     list-style: none;
@@ -13,4 +20,38 @@ header {}
     font-size: 16px;
     color: #6A7079;
     margin-top: 25px;
+}
+
+.search {
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    opacity: 0.3;
+}
+
+.carousel {
+    background-image: url(../img/image_13.png);
+    height: 390px;
+    position: relative;
+}
+
+.carousel__title {
+    font-size: 55px;
+    color: #323842;
+    font-weight: bold;
+}
+
+
+/* 5A5A5E  */
+
+.carousel__text {
+    color: #5A5A5E;
+    font-size: 20px;
+}
+
+.carousel__content {
+    width: 30%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
 }
