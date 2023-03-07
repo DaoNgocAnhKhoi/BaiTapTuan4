@@ -1,0 +1,16 @@
+header {}
+
+.header__left {
+    margin-left: 100px;
+}
+
+.header__nav {
+    list-style: none;
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    color: #6A7079;
+    margin-top: 25px;
+}
