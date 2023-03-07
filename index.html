@@ -45,18 +45,26 @@
             </div>
 
         </section>
-        <section class="listItem">
+        <section style="display: flex;" class="listItem">
             <div class="listItem__left">
                 <ul>
-                    <li>All products</li>
+                    <li class="active">All Products</li>
                     <li>Face</li>
                     <li>Body</li>
                 </ul>
             </div>
-            <div class="listItem__right">
-                <div>
-
+            <div class="listItem__right" style="display: flex;">
+                <div class="listItem__search" style="display: flex; justify-content: start;">
+                    <i class="fa fa-search"></i> Search product...
                 </div>
+                <div class="listItem__sort">
+                    Sort by <i class="fa fa-arrow-down"></i>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="products__item">
+                <img src="./img/image_1.png" alt="">
             </div>
         </section>
     </section>
